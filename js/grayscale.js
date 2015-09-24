@@ -38,7 +38,7 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 10,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(29.6270, -82.3730), // Gainesville
