@@ -1,0 +1,143 @@
+body {
+  padding-top: 54px;
+  color: #f1f1f1;
+  background-color: #e1e1e1;
+}
+
+.text-black {
+  color: #000;
+}
+
+a {
+  color: #2ecefe;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbar{
+  padding: 0rem .5rem;
+}
+
+.navbar-brand{
+  margin-right: 0px;
+  color: #fff !important;
+}
+
+.navbar-brand > img{
+  max-width: 100px;
+  margin-right: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+ color: #fff;
+}
+
+.active{
+ color: #2ecefe !important;
+}
+
+.bg-custom {
+  background-color: #101010 !important;
+}
+
+a.bg-custom:hover, a.bg-custom:focus,
+button.bg-custom:hover,
+button.bg-custom:focus {
+  background-color: #1d2124 !important;
+}
+
+.header-bg {
+  height: 50vh;
+  min-height: 400px;
+  background: url('../images/house2.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.header-fg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-body {
+  background-color: #1f1f1f;
+}
+
+.card-header {
+  background-color: transparent;
+  text-align: center;
+  border: 0;
+  /*color: ;*/
+}
+
+.card-footer{
+  background-color: #1f1f1f;
+}
+
+.section-middle {
+  background-color: #1f1f1f;
+  padding: 1rem;
+}
+
+.section-bottom {
+  
+  background-color: #004070;
+  padding: 1rem;
+}
+
+.btn {
+    border-radius: 6px;
+/*    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;*/
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #2ecefe;
+  border: 2px solid #000 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2ecefe;
+  border: 2px solid #fff !important;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #000;
+  border-color: #2ecefe;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
