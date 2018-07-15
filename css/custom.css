@@ -72,6 +72,10 @@ button.bg-custom:focus {
   background-color: transparent;
 }
 
+.card-img-top{
+  max-height: 320px;
+}
+
 .card-body {
   background-color: #1f1f1f;
 }
